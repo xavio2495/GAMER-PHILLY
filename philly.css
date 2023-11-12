@@ -1,0 +1,89 @@
+body{
+    background-image: url("https://www.wallpapertip.com/wmimgs/178-1780377_dark-assassins-creed-wallpaper-4k.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+header{
+  font-size:24px;
+  color: #ff0;
+  text-align: right;
+  font-family: "Akronim", sans-serif;
+}
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+h1.a{
+    padding-left: 2%;
+    color: darkblue;
+    font-family: "Audiowide", sans-serif;
+    font-size: 9em;
+    animation: tiktok 500ms linear infinite;
+}
+@keyframes tiktok{
+    0%, 100% {
+		text-shadow: -4px -4px 0 #ff0, 4px 4px 0 #f00;
+	}
+	25% {
+		text-shadow: 4px 4px 0 #0ff, -4px -4px 0 #f00;
+	}
+	50% {
+		text-shadow: 4px -4px 0 #ff0, 4px -4px 0 #f00;
+	}
+	75% {
+		text-shadow: -4px 4px 0 #0ff, -4px 4px 0 #f00;
+	}
+}
+* {box-sizing: border-box}
+
+.navbar {
+    background-color: none;
+    overflow: hidden;
+    position: fixed;
+    bottom: 25px;
+    width: 100%;
+  }
+
+.navbar a {
+    font-family: "Comic Neue", sans-serif;
+    font-weight: 900;
+  float: left;
+  padding: none;
+  color: #2debe1;
+  text-decoration: none;
+  font-size: 23px;
+  width: 25%; /* Four links of equal widths */
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #2debe1;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: lightskyblue;
+  color: red;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}

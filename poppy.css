@@ -1,0 +1,84 @@
+body{
+    background-image: url("https://images2.alphacoders.com/119/thumb-1920-1195482.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+h1{
+    text-shadow: 0 -0.05em 0.2em #FFF, 0.01em -0.02em 0.15em #FE0, 0.01em -0.05em 0.15em #FC0, 0.02em -0.15em 0.2em #F90, 0.04em -0.20em 0.3em #F70, 0.05em -0.25em 0.4em #F70, 0.06em -0.2em 0.9em #F50, 0.1em -0.1em 1.0em #F40;
+    text-align: center;
+    font-family: "Frijole",cursive;
+    font-size: 60px;
+   color: rgb(0,0,0,0.9);
+}
+h4{
+    box-align: right;
+    text-align:center;
+    padding: 9px;
+    width:fit-content;
+    border-style: solid;
+    border-color:#f20fcc;
+    border-radius: 5px;
+    color: white;
+    background-color:rgb(0,0,0,0.5);
+    font-family: "Comic Neue", sans-serif;
+    font-size: 23px;
+   
+}
+* {box-sizing: border-box}
+
+.navbar {
+    background-color: none;
+    overflow: hidden;
+    position: fixed;
+    bottom: 25px;
+    width: 100%;
+  }
+
+.navbar a {
+    font-family: "Comic Neue", sans-serif;
+    font-weight: 900;
+  float: left;
+  padding: none;
+  color: #22e663;
+  text-shadow: 2.4px 2.4px 4px  black ;
+  text-decoration: none;
+  font-size: 23px;
+  width: 25%; /* Four links of equal widths */
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #22e663;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: lightskyblue;
+  color: red;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: right;
+  }
+}
